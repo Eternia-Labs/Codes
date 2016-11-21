@@ -57,7 +57,7 @@ function robot(nm,ip,control_port,cam_port)
 	this._identify_objects=function(){
 		this._log_data('will identify objects now');
 		this._api.emit('identify_objects'); //robot stopped now
-		_instance = this;
+		/*_instance = this;
 		var prev_mode=_instance._mode;console.log(prev_mode);
 		setTimeout(function(){
 		$.ajax({url:'http://172.16.210.240:8050/home/'+_instance._ip+'/'+_instance._name}).done(function(data){
@@ -70,7 +70,7 @@ function robot(nm,ip,control_port,cam_port)
 				$('#messages').append(_instance._name+' finished scene survey at '+Date()+". <a href='"+res[1]+"' target='blank'>Image stored here.</a><br>");
 			}
 		_instance._api.emit(prev_mode);});
-		},1000);
+		},1000);*/
 	}
 	this._turn_left=function(){
 		this._log_data('relay command to turn left');
