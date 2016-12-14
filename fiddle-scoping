@@ -1,0 +1,7 @@
+var mod = (function (){
+var count = 0;
+var b = function(){count+=1; return count;};
+return {
+	a: function(){alert('hi'+b());}
+}
+})();
