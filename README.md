@@ -13,7 +13,7 @@ With development of robotics and its entrance in mainstream lifestyle (restauran
 
 2) An API that allows instantiation of virtual robots through certain properties and setting up communication channels including but not limited to MQTT, socketIO, and/or others.
 
-3) With development of technologies like Intel Euclid, making any robot **mobile** and **functional** should not be trivial.
+3) With development of technologies like Intel Euclid, making any robot **mobile** and **functional** should be an easy task.
 
 4) IoR states that any robot is represented as a virtual thing (talking in terms of AWS IoT cloud). This **thing** is then exposed to certain authentication and functions. Functions can include general actions as autonomous navigation, path planning to provision of specific functions within the context of deployment.
 
